@@ -1,0 +1,106 @@
+.header {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 15px 200px;
+  transition: 0.5 ease;
+  position: sticky;
+  background: rgba(0, 0, 0, 0.35);
+}
+.brand {
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.navigation {
+  position: relative;
+}
+.navigation .navigation-items a {
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: none; 
+  margin-left: 30px;
+  transition: 0.3s ease;
+}
+.navigation .navigation-items a:before {
+  content: "";
+  position: absolute;
+  background: rgb(255, 255, 255);
+  width: 0;
+  height: 2.5px;
+  top: 18px;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s ease;
+}
+
+.navigation .navigation-items a:hover:before {
+  width: 100%;
+}
+.header a{
+  left: 7%;
+  position: absolute;
+}
+@media (max-width: 1040px) {
+  .header {
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 20px;
+    transition: 0.5s ease;
+  }
+  .menu-btn {
+    background: url(menu.png)
+      no-repeat;
+    background-size: 30px;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 93%;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  .header .navigation {
+    display: none;
+  }
+  .brand {
+    right: 74%;
+    position: absolute;
+  }
+  .menu-btn.active {
+    z-index: 999;
+    background-size: 25px;
+    background: url(data:image/jpeg;base64,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);
+    background-position:center;
+    transition: 0.3s ease;
+  }
+}
+@media (min-width:0) and (max-width:480px){
+  .menu-btn {
+    background: url(menu.png)
+      no-repeat;
+    background-size: 30px;
+    background-position: center;
+    width: 40px;
+    
+    height: 40px;
+    position: absolute;
+    left: 80%;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+}

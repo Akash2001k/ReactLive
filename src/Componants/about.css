@@ -1,0 +1,48 @@
+.co a{
+    background: url(back.png)no-repeat;
+    background-size: 30px;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 93%;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 40px;
+}
+.icon .insta{
+    background: url(../insta.png)no-repeat;
+    background-size: 30px;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 45%;
+    cursor:pointer;
+    transition: 0.3s ease;
+    margin-top: 0.5%;
+}
+.icon .fb{
+    background: url(../fb.png)no-repeat;
+    background-size: 30px;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 0.5%;
+}
+.icon .twit{
+    background: url(../twit.png)no-repeat;
+    background-size: 30px;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 40%;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 0.5%;
+} 

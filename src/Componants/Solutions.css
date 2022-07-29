@@ -1,0 +1,142 @@
+
+.com a{
+    background: url(back.png)
+      no-repeat;
+    background-size: 30px;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 93%;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 40px;
+}
+.com .ar h1{
+ 
+  color: white;
+  font-size:34px;
+  margin: 4% 3% 1.5%;
+  background-color:rgba(0, 0, 0, 0.35);
+  padding:3px 23px;
+  border-radius:6px;
+  text-transform:uppercase;
+  font-weight:550;
+  width:400px
+}
+#total{
+  display: flex;
+}
+#potal{
+  display: flex;
+}
+#length{
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  color:white;
+  margin-left: 1%;
+  width: 9%
+}
+#breath{
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  color:white;
+  margin-left: 1%;
+  width: 9%
+}
+#len{
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  color:white;
+  margin-left: 1%;
+  width: 9%
+}
+#bre{
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  color:white;
+  margin-left: 1%;
+  width: 9%
+}
+
+@media (max-width:1040px){
+  .com a{
+    background: url(back.png)
+      no-repeat;
+    background-size: 30px;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 80%;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 40px;
+} 
+
+}
+
+@media (min-width: 0) and (max-width: 480px) {
+  
+    .com .ar h1{
+      color: white;
+      font-size:1.4em;
+      margin: 4% 3% 1.5%;
+      background-color:rgba(0, 0, 0, 0.35);
+      padding:10px 18px;
+      border-radius:6px;
+      text-transform:uppercase;
+      font-weight:550;
+      width: 70%;
+    }
+    .ar{
+      margin-top: 8%;
+    }
+    #total{
+      display: inline;
+    }
+    #potal{
+      display: inline;
+    }
+    #length{
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid white;
+      color:white;
+      margin: 0 3% 1%;
+      width: 18%
+    }
+    #breath{
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid white;
+      color:white;
+      margin: 0 3% 1%;
+      width: 18%
+    }
+    #len{
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid white;
+      color:white;
+      margin: 0 3% 1%;
+      width: 18%
+    }
+    #bre{
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid white;
+      color:white;
+      margin: 0 3% 1%;
+      width: 18%
+    }
+    .com .ar {
+      margin-bottom: 2%;
+    }
+  
+}
+
