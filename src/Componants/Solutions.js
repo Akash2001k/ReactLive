@@ -9,12 +9,13 @@ export default function Solutions() {
   function findarea() {
     const len = document.getElementById("length").value;
     const bre = document.getElementById("breath").value;
-    if(!bre || !len){
+   if(!bre || !len){
       alert("Please insert values in both")
     }
     setfirst(len * bre);
    
   }
+ 
 
   function findpera() {
     const len = document.getElementById("len").value;
@@ -48,7 +49,7 @@ export default function Solutions() {
           style={{ color: "white", margin: "1% 3% 1% 3%", fontSize: "20px" }}
           id="h3"
         >
-          Total area {first} sq ut
+          Total area {first} sq unit
         </h3>
         <button
           type="button"
@@ -59,7 +60,7 @@ export default function Solutions() {
           Find
         </button>
       </div>
-      {/* ############################################################################################ */}
+      {/* ################################################################################################ */}
       <div className="com">
         <div className="ar" style={{ display: "flex" }}>
           <h1>Parameter of rectangle</h1>

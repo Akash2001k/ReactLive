@@ -4,7 +4,7 @@ import "./Header.css"
 export default function Header() {
   const mnBtn=document.getElementsByClassName("menu-btn")
   function menuClick(){
-    console.log("click");
+    
     mnBtn.classList.toggle( )
     
   }
@@ -14,7 +14,7 @@ export default function Header() {
   // });
   return (
     <div className='header'>
-        <a herf="#" className='brand'>mathamatics</a>
+        <a style={{textDecoration:" overline",marginTop:"-0.26%"}} className='brand'>mathamatics</a>
         <div className='menu-btn' onClick={menuClick}></div>
         <div className='navigation'>
             <div className="navigation-items">

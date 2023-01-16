@@ -30,7 +30,7 @@ export default function Main() {
             the Enter key Word 2013 moves the insertion point down a little
             farther than one line on the page. This automatically creates space
             between paragraphs.
-            By default, when you press the Enter key Word 2013 moves the
+            By default, when you press<br></br>the Enter key Word 2013 moves the
             insertion point down a little farther than one line on the page.
             This automatically creates space between paragraphs. Just as you can
             format spacing between lines in your document, you can adjust
